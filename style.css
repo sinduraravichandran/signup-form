@@ -10,8 +10,31 @@ body {
     background-color: aliceblue;
 }
 
-img {
+#leaves-img {
     height: 100vh;
+}
+
+#odin-logo-img {
+    width: 70px;
+    height: auto;
+    position: absolute;
+    top: 215px;
+    left: calc(50% - 35px)
+
+}
+
+#image-container {
+    position: relative;
+}
+
+#positioned-div-image {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    opacity: 0.6;
+    top: 200px;
+
 }
 
 #italic {
@@ -27,17 +50,27 @@ img {
     margin-left: 30px;
 } 
 
+#sub-form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 #positioned-div {
     width: 100%;
-    height: 160px;
+    height: 26%;
     background-color: white;
     position: absolute;
+    left: -20px;
     z-index: -1;
+    box-shadow: 0px 4px 2px lightgrey, 0px -1px 1px lightgrey ;
+
 }
+
 
 h2 {
     padding-top: 10px;
-
+    padding-bottom: 10px;
+    width: 80%;
 }
 
 
@@ -48,12 +81,13 @@ label {
 #pair-1, #pair-2, #pair-3 {
     display: flex;
     gap: 80px;
+    padding-bottom: 20px;
 
 }
 
 button {
     align-self: flex-start;
-    background-color: forestgreen;
+    background-color: #596D48;
     padding: 10px 30px; 
     border-radius: 10px;
     border: none;
