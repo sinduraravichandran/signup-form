@@ -63,7 +63,6 @@ body {
     left: -20px;
     z-index: -1;
     box-shadow: 0px 4px 2px lightgrey, 0px -1px 1px lightgrey ;
-
 }
 
 
@@ -76,6 +75,21 @@ h2 {
 
 label {
     display: block;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 2px 2px 2px lightgrey;
 }
 
 #pair-1, #pair-2, #pair-3 {
